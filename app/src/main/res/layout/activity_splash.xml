@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background"
+    tools:context="org.atctech.lawmanagementsystem.SplashActivity">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/icon"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:secondaryProgressTint="#b44ec9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="law management system"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="serif-monospace"
+            android:textColor="#ffc125"/>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="300dp"
+            android:layout_height="5dp"
+            android:background="@drawable/line_splash">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:layout_height="wrap_content"
+                android:text="PRODUCT BY ATC tech"
+                android:textColor="#FFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
